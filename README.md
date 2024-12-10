@@ -1,6 +1,8 @@
-# winddata
+# Wind data
 
 The Python pipeline cleans raw turbine data, calculates statistics, detects anomalies, and exports results. It handles daily updated CSV files for multiple turbines.
+
+Along with an Airflow DAG to schedule and orchestrate the entire pipeline.
 
 # Setup & Execution
 
